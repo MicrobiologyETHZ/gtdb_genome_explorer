@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 st.set_page_config(layout="wide")
 # DtypeWarning: Columns(61, 65, 74, 82, 83, 85) have mixed types.
-from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
+
 
 @st.cache
 def get_data():
